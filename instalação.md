@@ -26,7 +26,7 @@ https://docs.docker.com/engine/install/
 ## Instalar o docker  
 ```sudo apt-get install docker-ce docker-ce-cli containerd.io```
 
-## use este comando para pegar a VERSION_STRING
+## Use este comando para pegar a VERSION_STRING
 ```apt-cache madison docker-ce```
 
 ## Instalar a versão do docker-ce, use o comando anterior pra escolher a versão
