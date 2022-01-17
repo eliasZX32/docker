@@ -1,10 +1,6 @@
 # docker
 
-Seguir os passos de Instalação, eu usei o link abaixo para instalar
-
-https://docs.docker.com/engine/install/
-
-# Ubuntu
+Os principais comandos do Docker
 
 **use o comando abaixo para desistalar todas instalações antigas**
 
@@ -20,34 +16,36 @@ ou
 
 ```docker container ls```
 
-Mostra os containers que já rotaram
-docker ps -a 
+### Mostra os containers que já rotaram
+```docker ps -a```
 
-Para o serviço
-docker stop NAMES 
+### Para o serviço
+```docker stop [contêiner ou id]```
 
-Logs um contêiner ( abra um novo terminar )
-docker logs [contêiner ou id]
+### Logs um contêiner ( abra um novo terminar )
+```docker logs [contêiner ou id]```
 
-Remove um contêiner, ( Cuidado, ele exclui do computador )
-docker rm [contêiner ou id] 
-	-f força parar o contêiner e remove
+### Remove um contêiner, ( Cuidado, ele exclui do computador )
+```docker rm [contêiner ou id]```
+	*-f força parar o contêiner e remove*
+	
+### Remove uma imagem, ( Cuidado, ele exclui do computador )
+```docker rmi [imagem ou id]``` 
 
-Remove uma imagem, ( Cuidado, ele exclui do computador )
-docker rmi [imagem ou id] 
+### Remove todas imagens, contêiners, redes, cache ( Cuidado )
+```docker system prune```
 
-Remove todas imagens, contêiners, redes, cache ( Cuidado )
-docker system prune  
+### Mostra algumas informação do contêiner
+```docker top [contêiner ou id]```
 
-Mostra algumas informação do contêiner
-docker top [contêiner ou id] 
+### Mostra informação gerais do contêiner
+```docker inspect [contêiner ou id]```
 
-Mostra informação gerais do contêiner
-docker inspect [contêiner ou id] 
+### Logar e deslogar
 
-Logar e deslogar
-docker login
-docker logout
+```docker login```
+
+```docker logout```
 
 --------------------------
 Rodar um contêiner
