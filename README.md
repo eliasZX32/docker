@@ -2,9 +2,6 @@
 
 Os principais comandos do Docker
 
-**use o comando abaixo para desistalar todas instalações antigas**
-
-```sudo apt-get remove docker docker-engine docker.io containerd runc```
 
 ### Para ver a versão do docker
 ```docker version```
